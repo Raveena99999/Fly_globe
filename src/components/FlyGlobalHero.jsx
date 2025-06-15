@@ -1,4 +1,3 @@
-import React from "react";
 import "../style/FlyGlobalHero.css";
 import { FaPlaneDeparture, FaPlaneArrival, FaUser, FaCalendarAlt } from "react-icons/fa";
 import { FiChevronDown } from "react-icons/fi";
