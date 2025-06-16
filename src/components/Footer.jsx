@@ -1,11 +1,11 @@
 import React from "react";
 import "../style/Footer.css";
-
+import icons from "../assets/icons.png"
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-columns">
-        <div className="column brand">
+        <div className="column-brand">
           <h3>FLYGLOBE</h3>
           <p>
             FlyGlobe is more than just a flight booking app; it’s your one-stop
@@ -46,12 +46,9 @@ const Footer = () => {
           <p>flyglobe@gmail.com</p>
           <p>+12 345 678 09</p>
           <p>Singapore, Indonesia</p>
-          <div className="social-footer-icons">
-            <div className="icon">🔵</div>
-            <div className="icon">🟣</div>
-            <div className="icon">🔴</div>
-            <div className="icon">🟠</div>
-            <div className="icon">🔘</div>
+         
+          <div>
+            <img src={icons} alt="" />
           </div>
         </div>
       </div>

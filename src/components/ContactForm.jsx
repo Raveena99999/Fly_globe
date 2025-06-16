@@ -18,11 +18,7 @@ const ContactForm = () => {
           <button type="submit">Leave Us a Message</button>
         </form>
       </div>
-      <div className="social-icons">
-        <div className="circle">f</div>
-        <div className="circle">i</div>
-        <div className="circle">t</div>
-      </div>
+     
     </section>
   );
 };
